@@ -1,0 +1,65 @@
+@model IEnumerable<QLTHPT.Models.Thoikhoabieu>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CanboCbMaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HockyHkMaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LopLopMaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MonhocMhMaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ThuThuMaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TiethocThMaNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CanboCbMaNavigation.CbMa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HockyHkMaNavigation.HkMa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LopLopMaNavigation.LopMa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MonhocMhMaNavigation.MhMa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ThuThuMaNavigation.ThuMa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TiethocThMaNavigation.ThMa)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TkbMa">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.TkbMa">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.TkbMa">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
