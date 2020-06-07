@@ -18,18 +18,18 @@
                     <form asp-action="Create">
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                         <div class="form-group"  style="text-align: left;">
-                            <label asp-for="MhMa" class="control-label"></label>
+                            <label asp-for="MhMa" class="control-label">Mã</label>
                             <input asp-for="MhMa" class="form-control" />
                             <span asp-validation-for="MhMa" class="text-danger"></span>
                         </div>
                         <div class="form-group"  style="text-align: left;">
-                            <label asp-for="MhTen" class="control-label"></label>
+                            <label asp-for="MhTen" class="control-label">Tên</label>
                             <input asp-for="MhTen" class="form-control" />
                             <span asp-validation-for="MhTen" class="text-danger"></span>
                         </div>
                         
                          <div class="form-group"  style="text-align: left;">
-                            <label asp-for="ChitietdanhgiaCtdgMa" class="control-label"></label>
+                            <label asp-for="ChitietdanhgiaCtdgMa" class="control-label">SDG</label>
                             <select asp-for="ChitietdanhgiaCtdgMa" class ="form-control" asp-items="ViewBag.ChitietdanhgiaCtdgMa"></select>
                         </div>
                         <div class="form-group" style="text-align: left;">

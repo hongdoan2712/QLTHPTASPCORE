@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e9N8HFCxGxJA1gXcaNtDFUdHz/PaqFi8aqnxs+LL6oMEsl99Z4GH72xWBnMgPg1wZPXoyd/IeXxuga4JEUpsrw==",
+  "dgSpecHash": "fljTNBudrJBF6fuOVA+FFcLjuVZ9xj0g/tlbv3g9RypLUeBno5GVCZsZ+MUdIbISE9U1h6iE4YFSfmqzrnWpww==",
   "success": true,
-  "projectFilePath": "D:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\QLTHPT.csproj",
+  "projectFilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\QLTHPT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
