@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\QLTHPT.csproj": {}
+    "D:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\QLTHPT.csproj": {}
   },
   "projects": {
-    "D:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\QLTHPT.csproj": {
+    "D:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\QLTHPT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\QLTHPT.csproj",
+        "projectUniqueName": "D:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\QLTHPT.csproj",
         "projectName": "QLTHPT",
-        "projectPath": "D:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\QLTHPT.csproj",
+        "projectPath": "D:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\QLTHPT.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "D:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\obj\\",
+        "outputPath": "D:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\QLTHPT.csproj",
+  "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\QLTHPT.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20521,238 +20521,238 @@
   "RootNamespace": "QLTHPT",
   "Documents": [
     {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\THUs1\\Delete.cshtml",
-      "TargetPath": "Views\\THUs1\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Namhocs\\Details.cshtml",
-      "TargetPath": "Views\\Namhocs\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Thus\\Delete.cshtml",
-      "TargetPath": "Views\\Thus\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Hockys\\Delete.cshtml",
-      "TargetPath": "Views\\Hockys\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Tiethocs\\Create.cshtml",
-      "TargetPath": "Views\\Tiethocs\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Thoikhoabieus\\Delete.cshtml",
-      "TargetPath": "Views\\Thoikhoabieus\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Thus\\Details.cshtml",
-      "TargetPath": "Views\\Thus\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Tiethocs\\Delete.cshtml",
-      "TargetPath": "Views\\Tiethocs\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Monhocs\\Index.cshtml",
-      "TargetPath": "Views\\Monhocs\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Namhocs\\Edit.cshtml",
-      "TargetPath": "Views\\Namhocs\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\THUs1\\Create.cshtml",
-      "TargetPath": "Views\\THUs1\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\THUs1\\Index.cshtml",
-      "TargetPath": "Views\\THUs1\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Monhocs\\Details.cshtml",
-      "TargetPath": "Views\\Monhocs\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Namhocs\\Create.cshtml",
-      "TargetPath": "Views\\Namhocs\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Hockys\\Edit.cshtml",
-      "TargetPath": "Views\\Hockys\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Lops\\Delete.cshtml",
-      "TargetPath": "Views\\Lops\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Namhocs\\Delete.cshtml",
-      "TargetPath": "Views\\Namhocs\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Thoikhoabieus\\Details.cshtml",
-      "TargetPath": "Views\\Thoikhoabieus\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Tiethocs\\Details.cshtml",
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Tiethocs\\Details.cshtml",
       "TargetPath": "Views\\Tiethocs\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Thus\\Index.cshtml",
-      "TargetPath": "Views\\Thus\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Namhocs\\Index.cshtml",
-      "TargetPath": "Views\\Namhocs\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Hockys\\Index.cshtml",
-      "TargetPath": "Views\\Hockys\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\THUs1\\Edit.cshtml",
-      "TargetPath": "Views\\THUs1\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Monhocs\\Edit.cshtml",
-      "TargetPath": "Views\\Monhocs\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Monhocs\\Create.cshtml",
-      "TargetPath": "Views\\Monhocs\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Lops\\Edit.cshtml",
-      "TargetPath": "Views\\Lops\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Thus\\Create.cshtml",
-      "TargetPath": "Views\\Thus\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Monhocs\\Delete.cshtml",
-      "TargetPath": "Views\\Monhocs\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Lops\\Details.cshtml",
-      "TargetPath": "Views\\Lops\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Hockys\\Create.cshtml",
-      "TargetPath": "Views\\Hockys\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Lops\\Create.cshtml",
-      "TargetPath": "Views\\Lops\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Thoikhoabieus\\Index.cshtml",
-      "TargetPath": "Views\\Thoikhoabieus\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Hockys\\Details.cshtml",
-      "TargetPath": "Views\\Hockys\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Lops\\Index.cshtml",
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Lops\\Index.cshtml",
       "TargetPath": "Views\\Lops\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Tiethocs\\Edit.cshtml",
-      "TargetPath": "Views\\Tiethocs\\Edit.cshtml",
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Tiethocs\\Index.cshtml",
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Thoikhoabieus\\Delete.cshtml",
+      "TargetPath": "Views\\Thoikhoabieus\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Lops\\Create.cshtml",
+      "TargetPath": "Views\\Lops\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\THUs1\\Delete.cshtml",
+      "TargetPath": "Views\\THUs1\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Monhocs\\Edit.cshtml",
+      "TargetPath": "Views\\Monhocs\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Lops\\Details.cshtml",
+      "TargetPath": "Views\\Lops\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Lops\\Edit.cshtml",
+      "TargetPath": "Views\\Lops\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Namhocs\\Edit.cshtml",
+      "TargetPath": "Views\\Namhocs\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\THUs1\\Edit.cshtml",
+      "TargetPath": "Views\\THUs1\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Monhocs\\Create.cshtml",
+      "TargetPath": "Views\\Monhocs\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Monhocs\\Details.cshtml",
+      "TargetPath": "Views\\Monhocs\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Tiethocs\\Index.cshtml",
       "TargetPath": "Views\\Tiethocs\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\THUs1\\Details.cshtml",
-      "TargetPath": "Views\\THUs1\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Thoikhoabieus\\Create.cshtml",
-      "TargetPath": "Views\\Thoikhoabieus\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Thus\\Edit.cshtml",
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Thus\\Edit.cshtml",
       "TargetPath": "Views\\Thus\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\_ViewStart.cshtml",
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Thus\\Index.cshtml",
+      "TargetPath": "Views\\Thus\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Thus\\Delete.cshtml",
+      "TargetPath": "Views\\Thus\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Tiethocs\\Create.cshtml",
+      "TargetPath": "Views\\Tiethocs\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Tiethocs\\Delete.cshtml",
+      "TargetPath": "Views\\Tiethocs\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Hockys\\Delete.cshtml",
+      "TargetPath": "Views\\Hockys\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Namhocs\\Details.cshtml",
+      "TargetPath": "Views\\Namhocs\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Thus\\Details.cshtml",
+      "TargetPath": "Views\\Thus\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Hockys\\Details.cshtml",
+      "TargetPath": "Views\\Hockys\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Namhocs\\Index.cshtml",
+      "TargetPath": "Views\\Namhocs\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\Views\\Thoikhoabieus\\Edit.cshtml",
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Thoikhoabieus\\Edit.cshtml",
       "TargetPath": "Views\\Thoikhoabieus\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Namhocs\\Delete.cshtml",
+      "TargetPath": "Views\\Namhocs\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Thoikhoabieus\\Details.cshtml",
+      "TargetPath": "Views\\Thoikhoabieus\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\THUs1\\Create.cshtml",
+      "TargetPath": "Views\\THUs1\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Lops\\Delete.cshtml",
+      "TargetPath": "Views\\Lops\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Monhocs\\Delete.cshtml",
+      "TargetPath": "Views\\Monhocs\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Monhocs\\Index.cshtml",
+      "TargetPath": "Views\\Monhocs\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Thoikhoabieus\\Create.cshtml",
+      "TargetPath": "Views\\Thoikhoabieus\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Hockys\\Create.cshtml",
+      "TargetPath": "Views\\Hockys\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\THUs1\\Index.cshtml",
+      "TargetPath": "Views\\THUs1\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Tiethocs\\Edit.cshtml",
+      "TargetPath": "Views\\Tiethocs\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\THUs1\\Details.cshtml",
+      "TargetPath": "Views\\THUs1\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Namhocs\\Create.cshtml",
+      "TargetPath": "Views\\Namhocs\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Hockys\\Index.cshtml",
+      "TargetPath": "Views\\Hockys\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Thus\\Create.cshtml",
+      "TargetPath": "Views\\Thus\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Thoikhoabieus\\Index.cshtml",
+      "TargetPath": "Views\\Thoikhoabieus\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Hockys\\Edit.cshtml",
+      "TargetPath": "Views\\Hockys\\Edit.cshtml",
       "FileKind": "mvc"
     }
   ],

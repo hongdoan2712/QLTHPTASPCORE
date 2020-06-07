@@ -7286,11 +7286,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\QLTHPT.csproj",
+      "projectUniqueName": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\QLTHPT.csproj",
       "projectName": "QLTHPT",
-      "projectPath": "D:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\QLTHPT.csproj",
+      "projectPath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\QLTHPT.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "D:\\DoAn2\\QLTHPT.ASPCore\\QLTHPT\\obj\\",
+      "outputPath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
