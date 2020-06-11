@@ -51,7 +51,7 @@ namespace QLTHPT.Models
         public virtual DbSet<UpdateImages> UpdateImages { get; set; }
         public virtual DbSet<Vanbang> Vanbang { get; set; }
         public virtual DbSet<Xaphuong> Xaphuong { get; set; }
-
+        public virtual DbSet<Login> Login { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -63,6 +63,22 @@ namespace QLTHPT.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.HasAnnotation("Relational:DefaultSchema", "acomptec_group11718");
+
+             modelBuilder.Entity<Login>(entity =>
+            {
+                entity.HasKey(e => e.UserName);
+
+                entity.ToTable("LOGIN", "dbo");
+
+                entity.Property(e => e.UserName)
+                    .HasColumnName("UN_MA")
+                    .HasMaxLength(10)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.PassWord)
+                    .HasColumnName("Pw")
+                    .HasMaxLength(50);
+            });
 
             modelBuilder.Entity<Bacluong>(entity =>
             {
