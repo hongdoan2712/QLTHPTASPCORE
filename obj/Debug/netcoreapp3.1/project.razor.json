@@ -20521,6 +20521,11 @@
   "RootNamespace": "QLTHPT",
   "Documents": [
     {
+      "FilePath": "e:\\QLTHPTASPCORE\\Views\\Dantocs\\Index.cshtml",
+      "TargetPath": "Views\\Dantocs\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\QLTHPTASPCORE\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -20536,8 +20541,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\QLTHPTASPCORE\\Views\\Tinhthanhs\\Create.cshtml",
+      "TargetPath": "Views\\Tinhthanhs\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\QLTHPTASPCORE\\Views\\Lops\\Create.cshtml",
       "TargetPath": "Views\\Lops\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\QLTHPTASPCORE\\Views\\Quanhuyens\\Index.cshtml",
+      "TargetPath": "Views\\Quanhuyens\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20566,8 +20581,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\QLTHPTASPCORE\\Views\\Xaphuongs\\Create.cshtml",
+      "TargetPath": "Views\\Xaphuongs\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\QLTHPTASPCORE\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\QLTHPTASPCORE\\Views\\Dantocs\\Details.cshtml",
+      "TargetPath": "Views\\Dantocs\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20583,6 +20608,11 @@
     {
       "FilePath": "e:\\QLTHPTASPCORE\\Views\\Chucvus\\Create.cshtml",
       "TargetPath": "Views\\Chucvus\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\QLTHPTASPCORE\\Views\\Dantocs\\Delete.cshtml",
+      "TargetPath": "Views\\Dantocs\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20656,6 +20686,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\QLTHPTASPCORE\\Views\\Tinhthanhs\\Index.cshtml",
+      "TargetPath": "Views\\Tinhthanhs\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\QLTHPTASPCORE\\Views\\Vanbangs\\Index.cshtml",
       "TargetPath": "Views\\Vanbangs\\Index.cshtml",
       "FileKind": "mvc"
@@ -20668,6 +20703,11 @@
     {
       "FilePath": "e:\\QLTHPTASPCORE\\Views\\Namhocs\\Index.cshtml",
       "TargetPath": "Views\\Namhocs\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\QLTHPTASPCORE\\Views\\Quanhuyens\\Delete.cshtml",
+      "TargetPath": "Views\\Quanhuyens\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20688,6 +20728,11 @@
     {
       "FilePath": "e:\\QLTHPTASPCORE\\Views\\Hockys\\Delete.cshtml",
       "TargetPath": "Views\\Hockys\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\QLTHPTASPCORE\\Views\\Xaphuongs\\Delete.cshtml",
+      "TargetPath": "Views\\Xaphuongs\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20713,6 +20758,11 @@
     {
       "FilePath": "e:\\QLTHPTASPCORE\\Views\\Vanbangs\\Details.cshtml",
       "TargetPath": "Views\\Vanbangs\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\QLTHPTASPCORE\\Views\\Dantocs\\Create.cshtml",
+      "TargetPath": "Views\\Dantocs\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20756,6 +20806,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\QLTHPTASPCORE\\Views\\Dantocs\\Edit.cshtml",
+      "TargetPath": "Views\\Dantocs\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\QLTHPTASPCORE\\Views\\Xaphuongs\\Index.cshtml",
+      "TargetPath": "Views\\Xaphuongs\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\QLTHPTASPCORE\\Views\\Chucvus\\Details.cshtml",
       "TargetPath": "Views\\Chucvus\\Details.cshtml",
       "FileKind": "mvc"
@@ -20763,6 +20823,16 @@
     {
       "FilePath": "e:\\QLTHPTASPCORE\\Views\\Tiethocs\\Edit.cshtml",
       "TargetPath": "Views\\Tiethocs\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\QLTHPTASPCORE\\Views\\Quanhuyens\\Details.cshtml",
+      "TargetPath": "Views\\Quanhuyens\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\QLTHPTASPCORE\\Views\\Quanhuyens\\Create.cshtml",
+      "TargetPath": "Views\\Quanhuyens\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20783,6 +20853,11 @@
     {
       "FilePath": "e:\\QLTHPTASPCORE\\Views\\Coquans\\Create.cshtml",
       "TargetPath": "Views\\Coquans\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\QLTHPTASPCORE\\Views\\Tinhthanhs\\Delete.cshtml",
+      "TargetPath": "Views\\Tinhthanhs\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20811,8 +20886,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\QLTHPTASPCORE\\Views\\Tinhthanhs\\Edit.cshtml",
+      "TargetPath": "Views\\Tinhthanhs\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\QLTHPTASPCORE\\Views\\Xaphuongs\\Details.cshtml",
+      "TargetPath": "Views\\Xaphuongs\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\QLTHPTASPCORE\\Views\\Ngachluongs\\Edit.cshtml",
       "TargetPath": "Views\\Ngachluongs\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\QLTHPTASPCORE\\Views\\Quanhuyens\\Edit.cshtml",
+      "TargetPath": "Views\\Quanhuyens\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20856,8 +20946,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\QLTHPTASPCORE\\Views\\Tinhthanhs\\Details.cshtml",
+      "TargetPath": "Views\\Tinhthanhs\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\QLTHPTASPCORE\\Views\\Thoikhoabieus\\Edit.cshtml",
       "TargetPath": "Views\\Thoikhoabieus\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\QLTHPTASPCORE\\Views\\Xaphuongs\\Edit.cshtml",
+      "TargetPath": "Views\\Xaphuongs\\Edit.cshtml",
       "FileKind": "mvc"
     }
   ],
