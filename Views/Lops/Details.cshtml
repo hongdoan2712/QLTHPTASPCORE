@@ -3,22 +3,58 @@
 @{
     ViewData["Title"] = "Details";
 }
+<div class="data-table-area mg-b-15">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="sparkline13-list shadow-reset">
+                    <div class="sparkline13-hd">
+                        <div class="main-sparkline13-hd">
+                            <h4>
+                                <strong>
+                                    Chi Tiết
+                                </strong>
+                            </h4>
 
-<h1>Details</h1>
 
-<div>
-    <h4>Lop</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.LopTen)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.LopTen)
-        </dd>
-    </dl>
+                        </div>
+                    </div>
+                    <div class="sparkline10-graph">
+                        <div class="card-body">
+                            <table id="bootstrap-data-table" class="table table-striped table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Mã 
+                                        </th>
+                                        <th>
+                                            Tên
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(model => model.LopMa)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(model => model.LopTen)
+                                        </td>
+                                    </tr>
+                                </thead>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model.LopMa">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+<p>
+        <div class="form-group" style="text-align: left;">
+            <div style=" padding-left: 15px;">
+                <a asp-action="Edit" asp-route-id="@Model.LopMa" class="btn btn-custon-rounded-three btn-warning"><i class="fa fa-edit"></i></a> |
+                <a asp-action="Index" class=" btn btn-custon-rounded-three btn-primary"><i class="fa fa-undo"></i></a>
+             </div>
+        </div>
+</p>
+

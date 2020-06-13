@@ -51,7 +51,11 @@
     </div>
 </div>
 <p>
-    <a href="@Url.Action("Edit", "HOCKYs", new { id = Model.HkMa })" class="btn btn-custon-rounded-three btn-warning"><i class="fa fa-edit"></i></a> |
-    <a href="@Url.Action("Index", "HOCKYs")" class=" btn btn-custon-rounded-three btn-primary"><i class="fa fa-undo"></i></a>
+        <div class="form-group" style="text-align: left;">
+            <div style=" padding-left: 15px;">
+                <a asp-action="Edit" asp-route-id="@Model.HkMa" class="btn btn-custon-rounded-three btn-warning"><i class="fa fa-edit"></i></a> |
+                <a asp-action="Index" class=" btn btn-custon-rounded-three btn-primary"><i class="fa fa-undo"></i></a>
+             </div>
+        </div>
 </p>
 
