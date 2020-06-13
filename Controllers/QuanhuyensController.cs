@@ -9,18 +9,17 @@ using QLTHPT.Models;
 
 namespace QLTHPT.Controllers
 {
-    public class NgachluongsController : Controller
+    public class QuanhuyensController : Controller
     {
         private readonly acomptec_qlthptContext _context = new acomptec_qlthptContext();
-        
 
-        // GET: Ngachluongs
+        // GET: Quanhuyens
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Ngachluong.ToListAsync());
+            return View(await _context.Quanhuyen.ToListAsync());
         }
 
-        // GET: Ngachluongs/Details/5
+        // GET: Quanhuyens/Details/5
         public async Task<IActionResult> Details(string id)
         {
             if (id == null)
@@ -28,39 +27,39 @@ namespace QLTHPT.Controllers
                 return NotFound();
             }
 
-            var ngachluong = await _context.Ngachluong
-                .FirstOrDefaultAsync(m => m.NlMa == id);
-            if (ngachluong == null)
+            var quanhuyen = await _context.Quanhuyen
+                .FirstOrDefaultAsync(m => m.QhMa == id);
+            if (quanhuyen == null)
             {
                 return NotFound();
             }
 
-            return View(ngachluong);
+            return View(quanhuyen);
         }
 
-        // GET: Ngachluongs/Create
+        // GET: Quanhuyens/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Ngachluongs/Create
+        // POST: Quanhuyens/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("NlMa,NlTen")] Ngachluong ngachluong)
+        public async Task<IActionResult> Create([Bind("QhMa,QhTen")] Quanhuyen quanhuyen)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(ngachluong);
+                _context.Add(quanhuyen);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(ngachluong);
+            return View(quanhuyen);
         }
 
-        // GET: Ngachluongs/Edit/5
+        // GET: Quanhuyens/Edit/5
         public async Task<IActionResult> Edit(string id)
         {
             if (id == null)
@@ -68,22 +67,22 @@ namespace QLTHPT.Controllers
                 return NotFound();
             }
 
-            var ngachluong = await _context.Ngachluong.FindAsync(id);
-            if (ngachluong == null)
+            var quanhuyen = await _context.Quanhuyen.FindAsync(id);
+            if (quanhuyen == null)
             {
                 return NotFound();
             }
-            return View(ngachluong);
+            return View(quanhuyen);
         }
 
-        // POST: Ngachluongs/Edit/5
+        // POST: Quanhuyens/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("NlMa,NlTen")] Ngachluong ngachluong)
+        public async Task<IActionResult> Edit(string id, [Bind("QhMa,QhTen")] Quanhuyen quanhuyen)
         {
-            if (id != ngachluong.NlMa)
+            if (id != quanhuyen.QhMa)
             {
                 return NotFound();
             }
@@ -92,12 +91,12 @@ namespace QLTHPT.Controllers
             {
                 try
                 {
-                    _context.Update(ngachluong);
+                    _context.Update(quanhuyen);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!NgachluongExists(ngachluong.NlMa))
+                    if (!QuanhuyenExists(quanhuyen.QhMa))
                     {
                         return NotFound();
                     }
@@ -108,10 +107,10 @@ namespace QLTHPT.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(ngachluong);
+            return View(quanhuyen);
         }
 
-        // GET: Ngachluongs/Delete/5
+        // GET: Quanhuyens/Delete/5
         public async Task<IActionResult> Delete(string id)
         {
             if (id == null)
@@ -119,30 +118,30 @@ namespace QLTHPT.Controllers
                 return NotFound();
             }
 
-            var ngachluong = await _context.Ngachluong
-                .FirstOrDefaultAsync(m => m.NlMa == id);
-            if (ngachluong == null)
+            var quanhuyen = await _context.Quanhuyen
+                .FirstOrDefaultAsync(m => m.QhMa == id);
+            if (quanhuyen == null)
             {
                 return NotFound();
             }
 
-            return View(ngachluong);
+            return View(quanhuyen);
         }
 
-        // POST: Ngachluongs/Delete/5
+        // POST: Quanhuyens/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)
         {
-            var ngachluong = await _context.Ngachluong.FindAsync(id);
-            _context.Ngachluong.Remove(ngachluong);
+            var quanhuyen = await _context.Quanhuyen.FindAsync(id);
+            _context.Quanhuyen.Remove(quanhuyen);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool NgachluongExists(string id)
+        private bool QuanhuyenExists(string id)
         {
-            return _context.Ngachluong.Any(e => e.NlMa == id);
+            return _context.Quanhuyen.Any(e => e.QhMa == id);
         }
     }
 }

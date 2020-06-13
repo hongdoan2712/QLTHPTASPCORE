@@ -575,3 +575,8 @@ E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Dantocs\Delete.cshtml.g.cs
 E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Dantocs\Details.cshtml.g.cs
 E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Dantocs\Edit.cshtml.g.cs
 E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Dantocs\Index.cshtml.g.cs
+E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Quanhuyens\Create.cshtml.g.cs
+E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Quanhuyens\Delete.cshtml.g.cs
+E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Quanhuyens\Details.cshtml.g.cs
+E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Quanhuyens\Edit.cshtml.g.cs
+E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Quanhuyens\Index.cshtml.g.cs
