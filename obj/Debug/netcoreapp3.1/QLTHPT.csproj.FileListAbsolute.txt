@@ -580,3 +580,13 @@ E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Quanhuyens\Delete.cshtml.g.
 E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Quanhuyens\Details.cshtml.g.cs
 E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Quanhuyens\Edit.cshtml.g.cs
 E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Quanhuyens\Index.cshtml.g.cs
+E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Tinhthanhs\Create.cshtml.g.cs
+E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Tinhthanhs\Delete.cshtml.g.cs
+E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Tinhthanhs\Details.cshtml.g.cs
+E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Tinhthanhs\Edit.cshtml.g.cs
+E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Tinhthanhs\Index.cshtml.g.cs
+E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Xaphuongs\Create.cshtml.g.cs
+E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Xaphuongs\Delete.cshtml.g.cs
+E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Xaphuongs\Details.cshtml.g.cs
+E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Xaphuongs\Edit.cshtml.g.cs
+E:\QLTHPTASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Xaphuongs\Index.cshtml.g.cs
