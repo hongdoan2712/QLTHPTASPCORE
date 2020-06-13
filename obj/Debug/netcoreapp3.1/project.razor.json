@@ -20526,6 +20526,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Shared\\_LayoutLogin.cshtml",
+      "TargetPath": "Views\\Shared\\_LayoutLogin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Lops\\Index.cshtml",
       "TargetPath": "Views\\Lops\\Index.cshtml",
       "FileKind": "mvc"
@@ -20533,11 +20538,6 @@
     {
       "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Shared\\_Layout Login.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout Login.cshtml",
       "FileKind": "mvc"
     },
     {
