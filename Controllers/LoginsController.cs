@@ -6,13 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using QLTHPT.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace QLTHPT.Controllers
 {
     public class LoginsController : Controller
     {
-        // private readonly UserName<IdentityUser>userName;
-
+       
 
 
 
@@ -85,52 +85,24 @@ namespace QLTHPT.Controllers
         // // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
          [HttpPost]
          [ValidateAntiForgeryToken]
-         public async Task<IActionResult> Edit(string id, [Bind("UserName,PassWord")] Login login)
-         {
-           if (id != login.UserName)
-           {
-                return NotFound();
-           }
-
-            if (ModelState.IsValid)
-           {
-               try
-              {
-                   _context.Update(login);
-                    await _context.SaveChangesAsync();
-                 }
-                 catch (DbUpdateConcurrencyException)
-                 {
-                     if (!LoginExists(login.UserName))
-                     {
-                         return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                     }
-                 }
-                 return RedirectToAction(nameof(Index));
-             }
-             return View(login);
-         }
-
-        // // GET: Logins/Delete/5
-         public async Task<IActionResult> Delete(string id)
+         public async Task<IActionResult> Login(string id, [Bind("UserName,PassWord")] Login login)
          {
             if (id == null)
             {
                 return NotFound();
             }
 
-             var login = await _context.Login
-                 .FirstOrDefaultAsync(m => m.UserName == id);
-             if (login == null)
-             {
-                return NotFound();
+            var canbo = await _context.Canbo
+                .Include(c => c.CoquanCqMaNavigation)
+                .Include(c => c.KhenthuongcbKtcbMaNavigation)
+                .Include(c => c.KyluatcbKlcbMaNavigation)
+                .FirstOrDefaultAsync(m => m.CbMa == login.UserName && m.MatKhau = login.PassWord);
+            if (canbo != null)
+            {
+                return RedirectToAction("Index", "Homes", new { area = "Admin" });
+            }else{
+                return RedirectToAction("Index", "Logins", new { area = "Admin" });
             }
-
-             return View(login);
          }
 
         // // POST: Logins/Delete/5

@@ -1,0 +1,77 @@
+@model IEnumerable<QLTHPT.Models.Canbo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CbHoten)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CbGioitinh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CbDiachi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CbNgaysinh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CbCmnd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CoquanCqMaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KhenthuongcbKtcbMaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KyluatcbKlcbMaNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CbHoten)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CbGioitinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CbDiachi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CbNgaysinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CbCmnd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CoquanCqMaNavigation.CqMa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KhenthuongcbKtcbMaNavigation.KtcbMa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KyluatcbKlcbMaNavigation.KlcbMa)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CbMa">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CbMa">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CbMa">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

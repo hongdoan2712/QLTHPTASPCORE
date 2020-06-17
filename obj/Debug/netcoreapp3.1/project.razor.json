@@ -20561,6 +20561,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Canbos\\Delete.cshtml",
+      "TargetPath": "Views\\Canbos\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -20623,6 +20628,11 @@
     {
       "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Thus\\Delete.cshtml",
       "TargetPath": "Views\\Thus\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Canbos\\Create.cshtml",
+      "TargetPath": "Views\\Canbos\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20711,6 +20721,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Canbos\\Edit.cshtml",
+      "TargetPath": "Views\\Canbos\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Hockys\\Create.cshtml",
       "TargetPath": "Views\\Hockys\\Create.cshtml",
       "FileKind": "mvc"
@@ -20736,8 +20751,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Canbos\\Details.cshtml",
+      "TargetPath": "Views\\Canbos\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Hockys\\Index.cshtml",
       "TargetPath": "Views\\Hockys\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\Views\\Canbos\\Index.cshtml",
+      "TargetPath": "Views\\Canbos\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

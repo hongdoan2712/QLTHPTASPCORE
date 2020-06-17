@@ -24,11 +24,14 @@ namespace QLTHPT
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDistributedMemoryCache();
-
+            services.AddHttpContextAccessor();
             services.AddSession(options =>
             {
-                options.IdleTimeout = TimeSpan.FromSeconds(10);
+               /*  options.IdleTimeout = TimeSpan.FromSeconds(10);
                 options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true; */
+                options.Cookie.Name = ".AdventureWorks.Session";
+                options.IdleTimeout = TimeSpan.FromSeconds(10);
                 options.Cookie.IsEssential = true;
             });
             services.AddControllersWithViews();
@@ -54,15 +57,19 @@ namespace QLTHPT
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseAuthorization();
 
             app.UseSession();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
+                /* endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{id?}"); */
+                endpoints.MapDefaultControllerRoute();
+                endpoints.MapRazorPages();
             });
         }
     }
+    
 }
