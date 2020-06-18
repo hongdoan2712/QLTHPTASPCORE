@@ -1,0 +1,56 @@
+@model QLTHPT.Models.Kyluat
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="data-table-area mg-b-15">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="sparkline13-list shadow-reset">
+                    <div class="sparkline13-hd">
+                        <div class="main-sparkline13-hd">
+                            <h4><strong>Chỉnh Sửa</strong></h4>
+
+                        </div>
+                    </div>
+                    <div class="sparkline13-graph">
+                        @using (Html.BeginForm())
+                        {
+                            @Html.AntiForgeryToken()
+
+                        <div class="form-horizontal">
+                        <form asp-action="Edit">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <input type="hidden" asp-for="KlMa" />
+                            <div class="form-group" style="text-align: left;">
+                                <label asp-for="KlMa" class="control-label">Mã</label>
+                                <input asp-for="KlMa" class="form-control" />
+                                <span asp-validation-for="KlMa" class="text-danger"></span>
+                            </div>
+                            <div class="form-group" style="text-align: left;">
+                                <label asp-for="KlHinhthuc" class="control-label">Thành Tích</label>
+                                <input asp-for="KlHinhthuc" class="form-control" />
+                                <span asp-validation-for="KlHinhthuc" class="text-danger"></span>
+                            </div>
+                             <div class="form-group" style="text-align: left;">
+                                <label asp-for="KlNgaykyluat" class="control-label">Ngày Kỷ Luật</label>
+                                <input asp-for="KlNgaykyluat" class="form-control" />
+                                <span asp-validation-for="KlNgaykyluat" class="text-danger"></span>
+                            </div>
+                            <div class="form-group" style="text-align: left;">
+                                <div style=" padding-left: 15px;">
+                                    <input type="submit" value="Lưu" class="btn btn-default" /> |
+                                    <a asp-action="Index" class=" btn btn-custon-rounded-three btn-primary"><i class="fa fa-undo"></i></a>
+                                </div>
+                            </div>
+                        </form>
+                        </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

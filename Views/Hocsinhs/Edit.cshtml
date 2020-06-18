@@ -1,0 +1,110 @@
+@model QLTHPT.Models.Hocsinh
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="data-table-area mg-b-15">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="sparkline13-list shadow-reset">
+                    <div class="sparkline13-hd">
+                        <div class="main-sparkline13-hd">
+                            <h4><strong>Chỉnh Sửa</strong></h4>
+
+                        </div>
+                    </div>
+                    <div class="sparkline13-graph">
+                        @using (Html.BeginForm())
+                        {
+                            @Html.AntiForgeryToken()
+
+                        <div class="form-horizontal">
+                        <form asp-action="Edit">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <input type="hidden" asp-for="HsMa" />
+                            <div class="form-group" style="text-align: left;">
+                                <label asp-for="HsMa" class="control-label">Mã</label>
+                                <input asp-for="HsMa" class="form-control" />
+                                <span asp-validation-for="HsMa" class="text-danger"></span>
+                            </div>
+                            <div class="form-group" style="text-align: left;">
+                                <label asp-for="HsHoten" class="control-label">Họ&Tên</label>
+                                <input asp-for="HsHoten" class="form-control" />
+                                <span asp-validation-for="HsHoten" class="text-danger"></span>
+                            </div>
+                            <div class="form-group" style="text-align: left;">
+                                <label asp-for="HsGioitinh" class="control-label">Giới Tính</label>
+                                <input asp-for="HsGioitinh" class="form-control" />
+                                <span asp-validation-for="HsGioitinh" class="text-danger"></span>
+                            </div>
+                            <div class="form-group" style="text-align: left;">
+                                <label asp-for="HsNgaysinh" class="control-label">Ngày Sinh</label>
+                                <input asp-for="HsNgaysinh" class="form-control" />
+                                <span asp-validation-for="HsNgaysinh" class="text-danger"></span>
+                            </div>
+                             <div class="form-group" style="text-align: left;">
+                                <label asp-for="HsTongiao" class="control-label">Tôn Giáo</label>
+                                <input asp-for="HsTongiao" class="form-control" />
+                                <span asp-validation-for="HsTongiao" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="DantocDtMa" class="control-label"></label>
+                                <select asp-for="DantocDtMa" class="form-control" asp-items="ViewBag.DantocDtMa"></select>
+                                <span asp-validation-for="DantocDtMa" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="TinhthanhTtMa" class="control-label"></label>
+                                <select asp-for="TinhthanhTtMa" class="form-control" asp-items="ViewBag.TinhthanhTtMa"></select>
+                                <span asp-validation-for="TinhthanhTtMa" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="XaphuongXpMa" class="control-label"></label>
+                                <select asp-for="XaphuongXpMa" class="form-control" asp-items="ViewBag.XaphuongXpMa"></select>
+                                <span asp-validation-for="XaphuongXpMa" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="QuanhuyenQhMa" class="control-label"></label>
+                                <select asp-for="QuanhuyenQhMa" class="form-control" asp-items="ViewBag.QuanhuyenQhMa"></select>
+                                <span asp-validation-for="QuanhuyenQhMa" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="KyluatKlMa" class="control-label"></label>
+                                <select asp-for="KyluatKlMa" class="form-control" asp-items="ViewBag.KyluatKlMa"></select>
+                                <span asp-validation-for="KyluatKlMa" class="text-danger"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label asp-for="KhenthuongKtMa" class="control-label"></label>
+                                <select asp-for="KhenthuongKtMa" class="form-control" asp-items="ViewBag.KhenthuongKtMa"></select>
+                                <span asp-validation-for="KhenthuongKtMa" class="text-danger"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label asp-for="LopLopMa" class="control-label"></label>
+                                <select asp-for="LopLopMa" class="form-control" asp-items="ViewBag.LopLopMa"></select>
+                                <span asp-validation-for="LopLopMa" class="text-danger"></span>
+                             </div>
+                             <div class="form-group">
+                                <label asp-for="KhoiKhoiMa" class="control-label"></label>
+                                <select asp-for="KhoiKhoiMa" class="form-control" asp-items="ViewBag.KhoiKhoiMa"></select>
+                                <span asp-validation-for="KhoiKhoiMa" class="text-danger"></span>
+                            </div>
+                            
+                            <div class="form-group" style="text-align: left;">
+                                <div style=" padding-left: 15px;">
+                                    <input type="submit" value="Lưu" class="btn btn-default" /> |
+                                    <a asp-action="Index" class=" btn btn-custon-rounded-three btn-primary"><i class="fa fa-undo"></i></a>
+                                </div>
+                            </div>
+                        </form>
+                           
+                        </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

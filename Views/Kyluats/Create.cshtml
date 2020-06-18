@@ -1,0 +1,58 @@
+@model QLTHPT.Models.Kyluat
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="data-table-area mg-b-15">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="sparkline13-list shadow-reset">
+                    <div class="sparkline13-hd">
+                        <div class="main-sparkline13-hd">
+                            <h4><strong>Tạo Mới</strong></h4>
+
+                        </div>
+                    </div>
+                    <div class="sparkline13-graph">
+                        
+                        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="KlMa" class="control-label"></label>
+                <input asp-for="KlMa" class="form-control" />
+                <span asp-validation-for="KlMa" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KlHinhthuc" class="control-label"></label>
+                <input asp-for="KlHinhthuc" class="form-control" />
+                <span asp-validation-for="KlHinhthuc" class="text-danger"></span>
+            </div>
+             <div class="form-group">
+                <label asp-for="KlNgaykyluat" class="control-label"></label>
+                <input asp-for="KlNgaykyluat" class="form-control" />
+                <span asp-validation-for="KlNgaykyluat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+
+                                <div class="form-group">
+                                    <div class="col-md-offset-2 col-md-10">
+
+                                        <input type="submit" value="Tạo" class="btn btn-default" /> |
+
+                                        <a href="@Url.Action("Index", "Kyluats")" class=" btn btn-custon-rounded-three btn-primary"><i class="fa fa-undo"></i></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
