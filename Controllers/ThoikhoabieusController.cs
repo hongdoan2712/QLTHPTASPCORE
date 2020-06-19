@@ -11,7 +11,7 @@ namespace QLTHPT.Controllers
 {
     public class ThoikhoabieusController : Controller
     {
-        private readonly acomptec_qlthptContext _context = new acomptec_qlthptContext();
+ private readonly acomptec_qlthptContext _context = new acomptec_qlthptContext();
 
         // GET: Thoikhoabieus
         public async Task<IActionResult> Index()

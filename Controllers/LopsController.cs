@@ -11,7 +11,7 @@ namespace QLTHPT.Controllers
 {
     public class LopsController : Controller
     {
-        private readonly acomptec_qlthptContext _context = new acomptec_qlthptContext();
+ private readonly acomptec_qlthptContext _context = new acomptec_qlthptContext();
 
         // GET: Lops
         public async Task<IActionResult> Index()

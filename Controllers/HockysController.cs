@@ -11,7 +11,7 @@ namespace QLTHPT.Controllers
 {
     public class HockysController : Controller
     {
-        private readonly acomptec_qlthptContext _context = new acomptec_qlthptContext();        
+        private readonly acomptec_qlthptContext _context = new acomptec_qlthptContext();
 
         // GET: Hockys
         public async Task<IActionResult> Index()
