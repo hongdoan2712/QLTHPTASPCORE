@@ -11,8 +11,7 @@ namespace QLTHPT.Controllers
 {
     public class TiethocsController : Controller
     {
-        private readonly acomptec_qlthptContext _context = new acomptec_qlthptContext();
-
+         private readonly acomptec_qlthptContext _context = new acomptec_qlthptContext();
 
         // GET: Tiethocs
         public async Task<IActionResult> Index()

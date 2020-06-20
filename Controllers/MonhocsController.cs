@@ -11,7 +11,9 @@ namespace QLTHPT.Controllers
 {
     public class MonhocsController : Controller
     {
-        private readonly acomptec_qlthptContext _context = new acomptec_qlthptContext();
+ private readonly acomptec_qlthptContext _context = new acomptec_qlthptContext();
+
+       
 
         // GET: Monhocs
         public async Task<IActionResult> Index()

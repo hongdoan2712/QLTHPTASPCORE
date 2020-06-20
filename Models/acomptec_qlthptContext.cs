@@ -23,6 +23,7 @@ namespace QLTHPT.Models
         public virtual DbSet<Chuyennganh> Chuyennganh { get; set; }
         public virtual DbSet<Coquan> Coquan { get; set; }
         public virtual DbSet<Cosovatchat> Cosovatchat { get; set; }
+        public virtual DbSet<Dangnhap> Dangnhap { get; set; }
         public virtual DbSet<Dantoc> Dantoc { get; set; }
         public virtual DbSet<Hinhthuc> Hinhthuc { get; set; }
         public virtual DbSet<Hocky> Hocky { get; set; }
@@ -366,6 +367,21 @@ namespace QLTHPT.Models
                     .HasForeignKey(d => d.TinhtrangTtMa)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_TINHTRANGCOSOVATCHAT");
+            });
+
+            modelBuilder.Entity<Dangnhap>(entity =>
+            {
+                entity.HasNoKey();
+
+                entity.ToTable("DANGNHAP");
+
+                entity.Property(e => e.DnPassword)
+                    .HasColumnName("DN_PASSWORD")
+                    .HasMaxLength(100);
+
+                entity.Property(e => e.DnUsername)
+                    .HasColumnName("DN_USERNAME")
+                    .HasMaxLength(50);
             });
 
             modelBuilder.Entity<Dantoc>(entity =>

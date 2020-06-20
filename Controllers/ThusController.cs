@@ -11,7 +11,8 @@ namespace QLTHPT.Controllers
 {
     public class ThusController : Controller
     {
-        private readonly acomptec_qlthptContext _context = new acomptec_qlthptContext();
+ private readonly acomptec_qlthptContext _context = new acomptec_qlthptContext();
+
 
         // GET: Thus
         public async Task<IActionResult> Index()

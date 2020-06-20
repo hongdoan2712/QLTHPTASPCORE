@@ -1,7 +1,11 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "d:\\QLTHPTASPCORE\\QLTHPT.csproj": {}
+=======
+    "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\QLTHPT.csproj": {}
+>>>>>>> a2b4abf65dba38eac53fa1911b99f5427de096cf
   },
   "projects": {
     "d:\\QLTHPTASPCORE\\QLTHPT.csproj": {
@@ -9,15 +13,22 @@
       "restore": {
         "projectUniqueName": "d:\\QLTHPTASPCORE\\QLTHPT.csproj",
         "projectName": "QLTHPT",
+<<<<<<< HEAD
         "projectPath": "d:\\QLTHPTASPCORE\\QLTHPT.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
         "outputPath": "d:\\QLTHPTASPCORE\\obj\\",
+=======
+        "projectPath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\QLTHPT.csproj",
+        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+        "outputPath": "d:\\DoAn2\\QLTHPTASPCore\\QLTHPT\\obj\\",
+>>>>>>> a2b4abf65dba38eac53fa1911b99f5427de096cf
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> a2b4abf65dba38eac53fa1911b99f5427de096cf
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,7 +103,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+>>>>>>> a2b4abf65dba38eac53fa1911b99f5427de096cf
         }
       }
     }
